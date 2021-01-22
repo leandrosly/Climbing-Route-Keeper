@@ -6,12 +6,14 @@ https://play.google.com/store/apps/details?id=com.ionicframework.gradescordova87
 Este é o app mais próximo do que imagino ser o ideal mas tem alguns problemas:
 - Deveria ter mais opções de gráficos para as agarras, inclusive um freehand e linhas, etc..
 - As miniaturas nas listas de vias mostram apenas a foto original, sem as agarras.
+- A busca por ginásios diferencia caracteres especiais (Leoes é diferente de Leões)
+- Quando a imagem de uma via é horizontal (landscape) o zoom é ajustado na vertical e não tem como reduzir então precisa ficar rolando horizontalmente
 
 Stōkt Climbing (Android/iOS)
 https://play.google.com/store/apps/details?id=com.getstokt.stokt&showAllReviews=true
 Este tem uma característica muito interessante que é as agarras selecionáveis. Isso envolve algum trabalho,
 provavelmente manual em cima da foto da parede. O grande problema desse app é que tem custo pra adicionar
-paredes (). Tem também a opção de selecionar as agarras de inicio e fim com marcações especiais. A criação
+paredes (U$ 35 a 125 por quantidade de agarras). Tem também a opção de selecionar as agarras de inicio e fim com marcações especiais. A criação
 da via segue um wizard bem legal. 
 
 
@@ -56,6 +58,11 @@ da via segue um wizard bem legal.
 - Avaliação de ginásio/setor/homewall/vias
 - Possibilidade de criar (ou apenas armazenar) croquis de setores. Isso é quase um outro app.
 - Cadastro de usuários (email, senha, nome, nascimento, altura, peso, sexo, foto, cidade/estado/país)
+- Visualizar ginásios/setores no mapa com filtros
+- Opção de denunciar para remoção (para evitar testes ficarem públicos poluindo as buscas)
+
+No caso de cobrança, seria interessante, talvez, manter todas as funções livres e um banner com limite de paredes/vias por usuário e,
+quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantidades (ou aumentar bastante o limite)
 
 
 (guardar as imagens/vias em svg para poder editar futuramente?)
