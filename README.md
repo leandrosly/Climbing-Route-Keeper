@@ -68,6 +68,7 @@ Boas ideias de interface
 - Opção de denunciar para remoção (para evitar testes ficarem públicos poluindo as buscas)
 - Opção de seguir outros usuários para obter notificações
 - Kudos
+- Acesso para visualizar/criar/editar tanto pelo app quanto pelo navegador (desktop)
 
 No caso de cobrança, seria interessante, talvez, manter todas as funções livres e um banner com limite de paredes/vias por usuário e,
 quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantidades (ou aumentar bastante o limite)
@@ -77,3 +78,7 @@ quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantid
 
 (nada a ver com o app mas poderia ter uma espécie de medidor de altura/ape index na parede do ginásio
 https://blogdescalada.com/ape-index-o-que-e-este-indice-ele-realmente-faz-a-diferenca-na-escalada/)
+
+Paleta de cor proposta:
+https://coolors.co/292e1e-7f0799-9649cb-afbbf2-d3fff3-bfb1c1-b5bec6
+https://coolors.co/331832-d81e5b-f0544f-c6d8d3-fdf0d5-d9bbf9-7871aa
