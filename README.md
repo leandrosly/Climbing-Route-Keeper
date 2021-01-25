@@ -20,6 +20,13 @@ BETA7
 https://play.google.com/store/apps/details?id=app.beta7.twa
 Boas ideias de interface
 
+MyClimb
+https://play.google.com/store/apps/details?id=com.myclimb
+
+Setter
+https://play.google.com/store/apps/details?id=com.miles.setter
+
+
 # Funções
 - Opção de deixar a imagem opaca ou em escala de cinza para destacar as agarras selecionadas
 - Visualização fácil das vias com zoom e pan intuitivo no app (pinch e scroll)
