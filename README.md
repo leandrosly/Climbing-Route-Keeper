@@ -26,6 +26,10 @@ https://play.google.com/store/apps/details?id=com.myclimb
 Setter
 https://play.google.com/store/apps/details?id=com.miles.setter
 
+CroquiLab (software windows para fazer croquis)
+http://www.femerj.org/wp-content/uploads/croquiLabBeta-1.rar
+(http://www.femerj.org/informacoes/trilhas-e-vias-de-escalada/)
+
 
 # Funções
 - Opção de deixar a imagem opaca ou em escala de cinza para destacar as agarras selecionadas
