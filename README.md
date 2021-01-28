@@ -32,8 +32,8 @@ Boas ideias de interface
 ### Setter
 
 CroquiLab (software windows para fazer croquis)
-http://www.femerj.org/wp-content/uploads/croquiLabBeta-1.rar
-(http://www.femerj.org/informacoes/trilhas-e-vias-de-escalada/)
+<http://www.femerj.org/wp-content/uploads/croquiLabBeta-1.rar>
+(<http://www.femerj.org/informacoes/trilhas-e-vias-de-escalada/>)
 
 [Android](https://play.google.com/store/apps/details?id=com.miles.setter)
 
