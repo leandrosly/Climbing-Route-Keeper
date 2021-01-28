@@ -87,6 +87,7 @@ http://www.femerj.org/wp-content/uploads/croquiLabBeta-1.rar
 - Opção de seguir outros usuários para obter notificações
 - Kudos
 - Acesso para visualizar/criar/editar tanto pelo app quanto pelo navegador (desktop)
+- Permitir que apareça um texto quando abrir a via que possa ser fechado para um ícone para quando precisar fazer alguma observação que não está prevista na interface
 
 No caso de cobrança, seria interessante, talvez, manter todas as funções livres e um banner com limite de paredes/vias por usuário e,
 quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantidades (ou aumentar bastante o limite)
