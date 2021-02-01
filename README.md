@@ -100,3 +100,5 @@ Paleta de cor proposta:
 
 - [paleta 1](https://coolors.co/292e1e-7f0799-9649cb-afbbf2-d3fff3-bfb1c1-b5bec6)
 - [paleta 2](https://coolors.co/331832-d81e5b-f0544f-c6d8d3-fdf0d5-d9bbf9-7871aa)
+
+Tá dificil esse Flutter!!
