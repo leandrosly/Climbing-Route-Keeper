@@ -44,6 +44,7 @@ Boas ideias de interface
 - Iniciar a criação da via baseado em uma imagem (câmera, upload, existentes ou branco)
 - Permitir ajustar a imagem inicial (recortar, girar, paralelogramo)
 - Manter as fotos originais para facilitar a criação de próximas vias
+- Opção de criar imagem selecionável ou apenas desenhar sobre a foto
 - Permitir pesquisar por graduação (range), tipos de agarras, inclinação, setter, ginásio, setor, coordenadas..
 - Ordenar por data de criação, dificuldade, mais curtida, mais encadenada... (opção de filtrar encadenadas)
 - Opção de clonar uma via existente para criar uma variante
