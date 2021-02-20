@@ -43,6 +43,7 @@ CroquiLab (software windows para fazer croquis)
 - Visualização fácil das vias com zoom e pan intuitivo no app (pinch e scroll)
 - Opção de criar ginásio/setor com posição geográfica e outros dados de localização, contato, horários de funcionamento, etc..
 - Exibir número de inscritos e locais (home) do ginásio
+- Talvez existir a figura de proprietário (ou administradores) de ginásios. Se houver, deve ser possível solicitar propriedade caso outra pessoa ja tenha criado pra evitar que existam duplicatas. E como resolver caso haja uma disputa? hmm
 - Opção de homewall (somente seria visível com convite do criador para outros usuários)
 - Características das vias:
   - tipos de agarras (crimp, pinch, sloper)
