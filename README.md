@@ -52,7 +52,7 @@ CroquiLab (software windows para fazer croquis)
   - setter (nomes e link com os usuários do sistema)
   - relacionar com o ginásio ou setor (opcional)
   - nome, descrição, conquistador, quantidade e tipo de chapas, altura, betas (oculto com opção de exibir; poderia ter fotos), data de criação
-  - sugestão de costuras longas quando conveniente
+  - sugestão de costuras longas quando conveniente (talvez possir ícone especial para diferenciar)
   - somente mãos, mão/pé, etc.. (foot follow hand, free foot, no foot)
   - agarras somente pé
   - agarras extras (solzinho)
