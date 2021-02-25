@@ -1,6 +1,6 @@
 module crk
 
-go 1.15
+go 1.16
 
 require (
 	github.com/gin-contrib/pprof v1.3.0
