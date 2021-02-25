@@ -1,6 +1,6 @@
 server:
   port: 5000
 database:
-  url: postgresql://example:P@55w0rd@postgres:5432/example?sslmode=disable
+  url: postgresql://crkdb:P@55w0rd@postgres:5432/crkdb?sslmode=disable
 logging:
   path: gin.log

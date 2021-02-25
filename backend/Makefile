@@ -26,7 +26,7 @@ BINARY_NAME_WIN=./dist/windows/
 GIT_COMMIT=$(shell git rev-list -1 HEAD)
 VERSION=$(shell date "+%Y.%m.%d.%H:%M:%S")
 GIT_TAG=$(shell git describe --tags --abbrev=0)
-BUILD_FLAGS=-i -v -ldflags "-X main.GitCommit=$(GIT_COMMIT) -X main.Version=$(GIT_TAG) -X main.BuildDate=$(VERSION) -X main.mode=release"
+BUILD_FLAGS=-v -ldflags "-X main.GitCommit=$(GIT_COMMIT) -X main.Version=$(GIT_TAG) -X main.BuildDate=$(VERSION) -X main.mode=release"
 
 all: help
 
@@ -55,7 +55,7 @@ prebuild-all:
 _dist_os:
 	GIN_MODE=release $(GOCMD) build $(BUILD_FLAGS) -o $(BINARY_NAME_FILE) ./command/...
 
-build: prebuild _dist_os
+build: _dist_os
 
 build-linux:
 	CC="x86_64-linux-musl-gcc" CXX="x86_64-linux-musl-g++" GOOS=linux $(GOCMD) build $(BUILD_FLAGS) -o $(BINARY_NAME_LINUX) ./command/...
