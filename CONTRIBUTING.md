@@ -1,8 +1,10 @@
+# Contributing
+
 ## Backend
 
 ### Cross platform build environment setup
 
-**macOS**
+#### macOS
 
 ```sh
 # install dep to build binary for linux and windows
@@ -10,13 +12,13 @@ brew install FiloSottile/musl-cross/musl-cross
 brew install mingw-w64
 ```
 
-**Linux/Windows**
+#### Linux/Windows
 
 ```sh
 # todo
 ```
 
-**Command Line**
+#### Command Line
 
 Run project with docker-compose
 
