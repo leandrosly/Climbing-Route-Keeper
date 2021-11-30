@@ -99,6 +99,9 @@ quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantid
 
 (nada a ver com o app mas poderia ter uma espécie de [medidor de altura/ape index](https://blogdescalada.com/ape-index-o-que-e-este-indice-ele-realmente-faz-a-diferenca-na-escalada/) na parede do ginásio)
 
+Ideia de marcação das agarras:
+https://www.instagram.com/p/CW4qgcXJaFB/?utm_medium=share_sheet
+
 Paleta de cor proposta:
 
 - [paleta 1](https://coolors.co/292e1e-7f0799-9649cb-afbbf2-d3fff3-bfb1c1-b5bec6)
