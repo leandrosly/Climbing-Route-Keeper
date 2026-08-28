@@ -43,6 +43,18 @@ CroquiLab (software windows para fazer croquis)
 
 O que usamos no Leões.
 
+### boardclimbs
+
+https://www.boardclimbs.com
+
+Recomendado pelo Claude, parece muito bom e tem interface web para navegador.
+
+### BoulderVision
+
+https://github.com/reiffd7/BoulderVision
+
+Interessante. Em python analisa movimentos em vídeos.
+
 ## Funções
 
 - Opção de deixar a imagem opaca ou em escala de cinza para destacar as agarras selecionadas
@@ -77,6 +89,7 @@ O que usamos no Leões.
 - Função para identificar as agarras automaticamente com IA permitindo apenas clicar para selecionar
 - Manter as fotos originais para facilitar a criação de próximas vias
 - Opção de criar imagem com agarras selecionáveis ou apenas desenhar sobre a foto
+- Permitir adicionar fotos próximas com detalhes das agarras da via
 - Permitir pesquisar por graduação (range), tipos de agarras, inclinação, setter, ginásio, setor, coordenadas, nome da via..
 - Ordenar por data de criação, dificuldade, mais curtida, mais encadenada... (opção de filtrar encadenadas)
 - Opção de clonar uma via existente para criar uma variante
@@ -85,7 +98,9 @@ O que usamos no Leões.
 - Opção de curtir/favoritar
 - Desafiar amigos nas vias
 - Upload (ou link do youtube) de vídeos de cadenas (upload complicado em função do armazenamento)
-- Marcar via como encadenada (registrar quantas tentativas) (por usuário) (data da cadena)
+- Marcar via como encadenada (registrar quantas tentativas ou flash/redpoint) (por usuário) (data da cadena) (opção de marcar cada vez que refizer)
+- Permitir marcar como feita em data diferente da atual
+- Tags
 - Escolher ginásio(s)/setor(es) preferenciais para facilitar
 - Inscrição do usuário no ginásio/setor para aparecer em lista de escaladores
 - Opção de parede simétrica
