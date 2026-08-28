@@ -37,35 +37,46 @@ CroquiLab (software windows para fazer croquis)
 
 [Android](https://play.google.com/store/apps/details?id=com.miles.setter)
 
+### Boulder Creator
+
+[Android](https://play.google.com/store/apps/details?id=project28.set.share) | [iOS](https://apps.apple.com/us/app/boulder-creator/id1508558239?l=es&ls=1)
+
+O que usamos no Leões.
+
 ## Funções
 
 - Opção de deixar a imagem opaca ou em escala de cinza para destacar as agarras selecionadas
 - Visualização fácil das vias com zoom e pan intuitivo no app (pinch e scroll)
-- Opção de criar ginásio/setor com posição geográfica e outros dados de localização, contato, horários de funcionamento, fotos, etc..
+- Permitir zoom negativo e evitar que o app corte as bordas das fotos por causa da proporção
+- Opção de criar ginásio/setor com posição geográfica e outros dados de localização, contato, horários de funcionamento, valores, fotos, etc..
 - Exibir número de inscritos e locais (home) do ginásio
 - Talvez existir a figura de proprietário (ou administradores) de ginásios. Se houver, deve ser possível solicitar propriedade caso outra pessoa ja tenha criado pra evitar que existam duplicatas. E como resolver caso haja uma disputa? hmm
 - Opção de homewall (somente seria visível com convite do criador para outros usuários)
 - Características das vias:
-  - tipos de agarras (crimp, pinch, sloper)
-  - inclinação (slab, face, overhang, talvez o ângulo)
+  - tipos de agarras (crimp, pinch, sloper, etc)
+  - cores das agarras (para quando forem todas da mesma cor)
+  - inclinação (slab, face, overhang, talvez o valor do ângulo)
   - graduação sugerida (seria interessante que os outros usuários pudessem sugerir graduação também) (gráfico de "grade opinion")
-  - setter (nomes e link com os usuários do sistema)
+  - setter (nomes e link com os usuários do sistema) (permitir mais de um setter na mesma via)
   - relacionar com o ginásio ou setor (opcional)
   - nome, descrição, conquistador, quantidade e tipo de chapas, altura, betas (oculto com opção de exibir; poderia ter fotos), data de criação
   - sugestão de costuras longas quando conveniente (talvez possir ícone especial para diferenciar)
   - somente mãos, mão/pé, etc.. (foot follow hand, free foot, no foot)
-  - agarras somente pé
+  - marcação de agarras exclusivas para pé
   - agarras extras (solzinho)
-  - nome randômico (substantivo adjetivo)
+  - função de nome randômico (substantivo adjetivo)
   - selecionar tipo (boulder, esportiva, movel, etc..)
   - quantidade de proteções nas esportivas
-  - quantidade de cordadas nas clássicas
+  - quantidade de cordadas/paradas nas clássicas
 - Conversão entre os diversos tipos de graduação
 - Iniciar a criação da via baseado em uma imagem (câmera, upload, existentes ou branco)
+- Para vias na rocha, permitir marcar as chapas e traçar a linha da via
 - Permitir ajustar a imagem inicial (recortar, girar, paralelogramo)
+- Opção automática para ajustar a parede no esquadro
+- Função para identificar as agarras automaticamente com IA permitindo apenas clicar para selecionar
 - Manter as fotos originais para facilitar a criação de próximas vias
 - Opção de criar imagem com agarras selecionáveis ou apenas desenhar sobre a foto
-- Permitir pesquisar por graduação (range), tipos de agarras, inclinação, setter, ginásio, setor, coordenadas..
+- Permitir pesquisar por graduação (range), tipos de agarras, inclinação, setter, ginásio, setor, coordenadas, nome da via..
 - Ordenar por data de criação, dificuldade, mais curtida, mais encadenada... (opção de filtrar encadenadas)
 - Opção de clonar uma via existente para criar uma variante
 - Opção de compartilhar setor/ginásio/via em redes sociais ou com usuários do app
@@ -81,10 +92,11 @@ CroquiLab (software windows para fazer croquis)
 - Deve funcionar offline com as vias que estiverem em cache ou selecionar ginásio/setor/homewall para ficarem offline
 - Permitir comentários em ginásio/setor/vias
 - Avaliação de ginásio/setor/homewall/vias
+- Notificações configuráveis (novas vias com filtro de setter/graduação/ginásio, novos ginásios/setores por região)
 - Possibilidade de criar (ou apenas armazenar) croquis de setores. Isso é quase um outro app.
 - Cadastro de usuários (email, senha, nome, nascimento, altura, peso, sexo, foto, cidade/estado/país, ape index, longitude braços e pernas)
 - Permitir logar com google, facebook, etc (preferível)
-- Estatísticas do usuários (gráficos )
+- Estatísticas do usuários (gráficos)
 - Visualizar ginásios/setores no mapa com filtros
 - Opção de denunciar para remoção (para evitar testes ficarem públicos poluindo as buscas)
 - Opção de seguir outros usuários para obter notificações
@@ -95,7 +107,7 @@ CroquiLab (software windows para fazer croquis)
 No caso de cobrança, seria interessante, talvez, manter todas as funções livres e um banner com limite de paredes/vias por usuário e,
 quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantidades (ou aumentar bastante o limite)
 
-(guardar as imagens/vias em svg para poder editar futuramente?)
+(guardar as imagens/vias em svg/json para poder editar futuramente?)
 
 (nada a ver com o app mas poderia ter uma espécie de [medidor de altura/ape index](https://blogdescalada.com/ape-index-o-que-e-este-indice-ele-realmente-faz-a-diferenca-na-escalada/) na parede do ginásio)
 
