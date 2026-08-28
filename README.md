@@ -52,6 +52,7 @@ O que usamos no Leões.
 - Exibir número de inscritos e locais (home) do ginásio
 - Talvez existir a figura de proprietário (ou administradores) de ginásios. Se houver, deve ser possível solicitar propriedade caso outra pessoa ja tenha criado pra evitar que existam duplicatas. E como resolver caso haja uma disputa? hmm
 - Opção de homewall (somente seria visível com convite do criador para outros usuários)
+- QR codes talvez com link para as vias ou ginásio para imprimir
 - Características das vias:
   - tipos de agarras (crimp, pinch, sloper, etc)
   - cores das agarras (para quando forem todas da mesma cor)
