@@ -87,6 +87,7 @@ Interessante. Em python analisa movimentos em vídeos.
 - Permitir ajustar a imagem inicial (recortar, girar, paralelogramo)
 - Opção automática para ajustar a parede no esquadro
 - Função para identificar as agarras automaticamente com IA permitindo apenas clicar para selecionar
+- Permitir usuário selecionar se prefere visualizar as agarras selecionadas pelo contorno ou por um círculo normal.
 - Manter as fotos originais para facilitar a criação de próximas vias
 - Opção de criar imagem com agarras selecionáveis ou apenas desenhar sobre a foto
 - Permitir adicionar fotos próximas com detalhes das agarras da via
