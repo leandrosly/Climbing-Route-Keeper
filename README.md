@@ -69,21 +69,23 @@ Interessante. Em python analisa movimentos em vídeos.
   - tipos de agarras (crimp, pinch, sloper, etc)
   - cores das agarras (para quando forem todas da mesma cor)
   - inclinação (slab, face, overhang, talvez o valor do ângulo)
+  - a mesma via pode ter mais de uma inclinação se passar por sessões diferentes da parede
   - graduação sugerida (seria interessante que os outros usuários pudessem sugerir graduação também) (gráfico de "grade opinion")
-  - setter (nomes e link com os usuários do sistema) (permitir mais de um setter na mesma via)
-  - relacionar com o ginásio ou setor (opcional)
+  - setters (nomes e link com os usuários do sistema) (permitir mais de um setter na mesma via)
+  - vincular com o ginásio ou setor (opcional?)
   - nome, descrição, conquistador, quantidade e tipo de chapas, altura, betas (oculto com opção de exibir; poderia ter fotos), data de criação
   - sugestão de costuras longas quando conveniente (talvez possir ícone especial para diferenciar)
   - somente mãos, mão/pé, etc.. (foot follow hand, free foot, no foot)
   - marcação de agarras exclusivas para pé
   - agarras extras (solzinho)
-  - função de nome randômico (substantivo adjetivo)
+  - função de nome randômico (substantivo adjetivo estilo ubuntu)
   - selecionar tipo (boulder, esportiva, movel, etc..)
   - quantidade de proteções nas esportivas
   - quantidade de cordadas/paradas nas clássicas
+  - linha para delimitar área da via (linha preta ifsc)
 - Conversão entre os diversos tipos de graduação
 - Iniciar a criação da via baseado em uma imagem (câmera, upload, existentes ou branco)
-- Para vias na rocha, permitir marcar as chapas e traçar a linha da via
+- Para vias na rocha, permitir marcar as chapas e traçar a linha da via sobre a foto
 - Permitir ajustar a imagem inicial (recortar, girar, paralelogramo)
 - Opção automática para ajustar a parede no esquadro
 - Função para identificar as agarras automaticamente com IA permitindo apenas clicar para selecionar
@@ -91,21 +93,22 @@ Interessante. Em python analisa movimentos em vídeos.
 - Manter as fotos originais para facilitar a criação de próximas vias
 - Opção de criar imagem com agarras selecionáveis ou apenas desenhar sobre a foto
 - Permitir adicionar fotos próximas com detalhes das agarras da via
-- Permitir pesquisar por graduação (range), tipos de agarras, inclinação, setter, ginásio, setor, coordenadas, nome da via..
+- Possuir um icone que mostre as áreas da foto que têm visualização aproximada com detalhe das agarras
+- Permitir pesquisar por graduação (range), tipos de agarras, inclinação, setter, ginásio, setor, coordenadas, nome da via, data de criação (range)
 - Ordenar por data de criação, dificuldade, mais curtida, mais encadenada... (opção de filtrar encadenadas)
 - Opção de clonar uma via existente para criar uma variante
-- Opção de compartilhar setor/ginásio/via em redes sociais ou com usuários do app
+- Opção de compartilhar setor/ginásio/via em redes sociais ou com usuários do app (envio do link ou qrcode)
 - Configuração para bloquear a rotação da imagem junto com o pinch do zoom na visualização
-- Opção de curtir/favoritar
+- Opção de curtir/favoritar/avaliar
 - Desafiar amigos nas vias
 - Upload (ou link do youtube) de vídeos de cadenas (upload complicado em função do armazenamento)
-- Marcar via como encadenada (registrar quantas tentativas ou flash/redpoint) (por usuário) (data da cadena) (opção de marcar cada vez que refizer)
+- Marcar via como encadenada (registrar quantas tentativas ou flash/redpoint) (por usuário) (data da cadena) (opção de marcar cada vez que reencadenar)
 - Permitir marcar como feita em data diferente da atual
-- Tags
+- Tags (por usuário e/ou geral?)
 - Escolher ginásio(s)/setor(es) preferenciais para facilitar
 - Inscrição do usuário no ginásio/setor para aparecer em lista de escaladores
 - Opção de parede simétrica
-- Opção de arquivar via por modificações nas posições das agarras, etc..
+- Opção de arquivar via por modificações nas posições das agarras, etc.. (para admins)
 - Deve funcionar offline com as vias que estiverem em cache ou selecionar ginásio/setor/homewall para ficarem offline
 - Permitir comentários em ginásio/setor/vias
 - Avaliação de ginásio/setor/homewall/vias
@@ -116,13 +119,13 @@ Interessante. Em python analisa movimentos em vídeos.
 - Estatísticas do usuários (gráficos)
 - Visualizar ginásios/setores no mapa com filtros
 - Opção de denunciar para remoção (para evitar testes ficarem públicos poluindo as buscas)
+- Denúncia de nome impróprio
 - Opção de seguir outros usuários para obter notificações
 - Kudos
 - Acesso para visualizar/criar/editar tanto pelo app quanto pelo navegador (desktop)
-- Permitir que apareça um texto quando abrir a via que possa ser fechado para um ícone para quando precisar fazer alguma observação que não está prevista na interface
+- Permitir que apareça um texto (popup) quando abrir a via que possa ser fechado para um ícone para quando precisar fazer alguma observação que não está prevista na interface
 
-No caso de cobrança, seria interessante, talvez, manter todas as funções livres e um banner com limite de paredes/vias por usuário e,
-quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantidades (ou aumentar bastante o limite)
+No caso de cobrança, seria interessante, talvez, manter todas as funções livres e um banner com limite de paredes/vias por usuário e, quando pago (um valor baixo tipo U$ 5,00), remover o banner e liberar as quantidades (ou aumentar bastante o limite)
 
 (guardar as imagens/vias em svg/json para poder editar futuramente?)
 
@@ -136,4 +139,4 @@ Paleta de cor proposta:
 - [paleta 1](https://coolors.co/292e1e-7f0799-9649cb-afbbf2-d3fff3-bfb1c1-b5bec6)
 - [paleta 2](https://coolors.co/331832-d81e5b-f0544f-c6d8d3-fdf0d5-d9bbf9-7871aa)
 
-Tá dificil esse Flutter!!
+Tá dificil esse Flutter!! Acho que não vai ter flutter, vamos de webapp.
