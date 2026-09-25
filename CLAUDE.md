@@ -39,14 +39,24 @@ Projeto pessoal, sem fins comerciais, mantido por uma única pessoa aprendendo a
 
 - Tudo containerizado via **Docker** (Postgres, API, serviço de inferência YOLO), pensando em portabilidade futura para nuvem.
 - Testado localmente num servidor/laptop pessoal: i5, 16GB RAM, Ubuntu 26.04 Desktop.
-- Acesso remoto ao servidor via SSH com túnel HTTP(S).
+- Acesso remoto ao servidor via SSH (inclusive túnel SSH para acessar o app no entrypoint `https` de fora da rede local).
 - Sem uso de nuvem (AWS) para hospedar a aplicação por enquanto — prioridade é manter custo baixo/zero enquanto o projeto está em fase de validação.
 - O `compose.yaml` que sobe os containers faz parte do repositório.
 
-### HTTPS (pendente — a ser resolvido pelo Leandro)
+### HTTPS e acesso externo (resolvido — infraestrutura do servidor)
 - Necessário para o PWA ser instalável no celular (acesso por `http://<ip>` mostra a página, mas não permite instalar).
-- Plano: certificado Let's Encrypt para o domínio `leandro.systems`, validado via desafio DNS no DNS da AWS (Route 53).
-- Até lá, a instalação do PWA só funciona via `localhost` ou com contornos de teste (ex.: flag do Chrome Android "Insecure origins treated as secure").
+- O servidor já roda uma stack própria (fora deste repositório) com:
+  - **Traefik** como reverse proxy, emitindo e renovando automaticamente certificados **Let's Encrypt** para o domínio `leandro.systems`.
+  - **ddns-updater**, que mantém o DNS apontando para o IP público (link residencial, IP dinâmico).
+- Consequência para este projeto: os containers da aplicação **não** cuidam de TLS nem de certificados. Eles só precisam ser expostos ao Traefik (rede Docker compartilhada + labels do Traefik no `compose.yaml`), e o Traefik termina o HTTPS.
+
+#### Integração com o Traefik (convenções)
+- **Rede Docker:** `proxy` (externa, já criada pela stack do Traefik). Só os containers que precisam ser acessados de fora entram nela; o Postgres fica apenas na rede interna da aplicação.
+- **Domínio:** a aplicação responde em `crk.${BASE_DOMAIN}`. A variável `BASE_DOMAIN` fica no `.env` (hoje `BASE_DOMAIN=leandro.systems`) — nunca escrever o domínio fixo nas labels, pois ele vai mudar no futuro. Mesmo padrão usado nas outras stacks do servidor.
+- **Entrypoints do Traefik:**
+  - `http` (porta 80) e `https` (porta 443) — escutam no servidor; acessíveis apenas na rede local ou via túnel SSH (a operadora bloqueia 80/443 de fora).
+  - `https-ext` (porta 4433) — recebe o redirecionamento de porta do modem; é o acesso pela internet.
+- **Por enquanto a aplicação usa só o entrypoint `https`** (uso interno / via túnel SSH). Adicionar `https-ext` é um passo futuro, quando for hora de expor o app para fora.
 
 ## Como trabalhar neste projeto
 
