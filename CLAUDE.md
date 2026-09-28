@@ -65,3 +65,15 @@ Projeto pessoal, sem fins comerciais, mantido por uma única pessoa aprendendo a
 - Sempre explicar o que foi feito e por quê antes de considerar um passo concluído.
 - Perguntar antes de tomar decisões de arquitetura não cobertas por este documento.
 - Ao tomar uma nova decisão relevante de arquitetura, registrar aqui (seção correspondente) para manter este arquivo como fonte de verdade.
+
+## Pendências de setup por máquina (provisório)
+
+O código é editado em 3 notebooks Windows. Claude: no início da sessão, confira `$env:COMPUTERNAME`; se a máquina atual tiver pendência abaixo, lembre o usuário. Quando todas forem resolvidas, remova esta seção.
+
+| Máquina | Hostname | Node.js |
+|---|---|---|
+| Note da AVMB | `LEANDRO-INFRANG` | ✅ instalado (v24.19.0) |
+| Note do IPASSP | `TECNOLOGIA-718` | ⏳ pendente |
+| Note de casa | `LEANDRO-G15` | ⏳ pendente |
+
+Instalação: `winget install OpenJS.NodeJS.LTS` (depois reabrir o terminal/VS Code para o `node` entrar no PATH).
