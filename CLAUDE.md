@@ -56,6 +56,7 @@ Projeto pessoal, sem fins comerciais, mantido por uma única pessoa aprendendo a
 - **Entrypoints do Traefik:**
   - `http` (porta 80) e `https` (porta 443) — escutam no servidor; acessíveis apenas na rede local ou via túnel SSH (a operadora bloqueia 80/443 de fora).
   - `https-ext` (porta 4433) — recebe o redirecionamento de porta do modem; é o acesso pela internet.
+- **TLS/certificado:** o TLS e o certresolver já estão configurados no próprio entrypoint do Traefik. Nas labels, **não** usar `traefik.http.routers.<nome>.tls=true` nem `tls.certresolver` — definir a seção `tls` no router substitui o padrão do entrypoint e o Traefik passa a servir o certificado autoassinado padrão. Basta `traefik.enable`, `rule`, `entrypoints` e a porta do service (mesmo padrão do Immich).
 - **Por enquanto a aplicação usa só o entrypoint `https`** (uso interno / via túnel SSH). Adicionar `https-ext` é um passo futuro, quando for hora de expor o app para fora.
 
 ## Como trabalhar neste projeto
