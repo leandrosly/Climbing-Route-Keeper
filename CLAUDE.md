@@ -73,7 +73,7 @@ O código é editado em 3 notebooks Windows. Claude: no início da sessão, conf
 | Máquina | Hostname | Node.js |
 |---|---|---|
 | Note da AVMB | `LEANDRO-INFRANG` | ✅ instalado (v24.19.0) |
-| Note do IPASSP | `TECNOLOGIA-718` | ⏳ pendente |
+| Note do IPASSP | `TECNOLOGIA-718` | ✅ instalado (v24.19.0) |
 | Note de casa | `LEANDRO-G15` | ⏳ pendente |
 
 Instalação: `winget install OpenJS.NodeJS.LTS` (depois reabrir o terminal/VS Code para o `node` entrar no PATH).
